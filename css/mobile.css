@@ -1,0 +1,357 @@
+@media screen and (max-width: 501px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  body {
+    padding: 20px;
+  }
+  body h1 {
+    font-size: 24px;
+  }
+  body h3 {
+    font-size: 18px;
+  }
+  img {
+    width: 100%;
+  }
+  .section-title {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* banner  */
+  .anhbia {
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
+    justify-content: center;
+    padding: 0;
+    justify-content: center;
+  }
+
+  #banner {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    text-align: center;
+  }
+  /* navbar */
+  .nav-bar-container {
+    justify-content: flex-start;
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 50px;
+  }
+
+  #anhchandung {
+    display: none;
+  }
+
+  .nav-bar-container a {
+    line-height: 50px;
+    border-left: none;
+    border-right: none;
+  }
+
+  /* Information and target */
+  .about {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+
+  .info ul {
+    margin-left: 50px;
+    text-align: justify;
+    margin-right: 50px;
+    list-style-type: none;
+  }
+  .button {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 45px;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: blueviolet;
+    color: #f2f2f2;
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .button:hover {
+    background: blue;
+  }
+  .thongtincanhan {
+    position: relative;
+    display: none;
+  }
+  .thongtin {
+    position: relative;
+    display: contents;
+  }
+  form .error-text {
+    position: absolute;
+    margin: 15px 0 -5px 0;
+    background: black;
+    color: #fceae8;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    user-select: none;
+    display: none;
+    width: 20%;
+    left: 72%;
+  }
+
+  form .error-text:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: black;
+    right: 20px;
+    top: -7px;
+    transform: rotate(45deg);
+  }
+
+  #target p {
+    margin-left: 50px;
+    text-align: justify;
+    margin-right: 50px;
+    list-style: none;
+  }
+
+  /* grid in hobbies */
+
+  .container-thongtin {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    column-gap: 15px;
+    row-gap: 5px;
+    justify-content: center;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(115, 124, 245, 0.8);
+    height: auto;
+    font-size: 12px;
+  }
+  .icon {
+    display: flex;
+    justify-self: left;
+    align-items: center;
+  }
+  .kinhnghiem {
+    display: content;
+  }
+  .hienthikinhnghiem {
+    display: none;
+  }
+
+  .kinhnghiem2 {
+    display: content;
+  }
+  .hienthikinhnghiem2 {
+    display: none;
+  }
+  .kinhnghiem3 {
+    display: content;
+  }
+  .hienthikinhnghiem3 {
+    display: none;
+  }
+
+  .kinhnghiem4 {
+    display: content;
+  }
+  .hienthikinhnghiem4 {
+    display: none;
+  }
+
+  .kinhnghiem5 {
+    display: content;
+  }
+  .hienthikinhnghiem5 {
+    display: none;
+  }
+
+  .kinhnghiem6 {
+    display: content;
+  }
+  .hienthikinhnghiem6 {
+    display: none;
+  }
+
+  /* line in skill */
+  .line {
+    background-color: rgb(225, 231, 247);
+    height: 1px;
+    width: 35px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .line-bule {
+    background-color: rgb(121, 130, 252);
+    height: 1px;
+    width: 35px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .sothich {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+    text-align: center;
+  }
+
+  .sothich .grid {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  /* certificate */
+  .chungchi {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+  }
+  .chungchi-thanhphan {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    padding: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+  }
+
+  /* project */
+  .duan {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 20px;
+  }
+
+  .duanform {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    vertical-align: middle;
+    border: 1px solid rgb(115, 171, 245);
+  }
+
+  .duangrid {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .hang1 {
+    grid-column: 1/5;
+    padding: 10px;
+    border-bottom: 1px solid rgb(115, 171, 245);
+  }
+  .hang2 {
+    grid-column: 1/5;
+    padding: 10px;
+  }
+  .hang4 {
+    grid-column: 1/5;
+    padding: 10px;
+  }
+  .hang3 {
+    grid-column: 2/5;
+    padding: 10px;
+    border-bottom: 1px solid rgb(115, 171, 245);
+  }
+  #laptop {
+    display: none;
+  }
+  #mobile {
+    display: block;
+  }
+  /* digital-cv */
+  .background {
+    background-color: blue;
+  }
+  .nen {
+    background-color: white;
+  }
+  .digital-cv {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .digital-cv h1 {
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 1px solid blueviolet;
+    color: blue;
+    font-weight: bold;
+  }
+
+  .digital-cv-thanhphan {
+    display: flex;
+    flex-flow: column;
+    column-gap: 20px;
+    padding: 10px;
+    justify-items: center;
+  }
+  .digital-cv-thanhphan h3 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .boderbottom1 {
+    text-align: center;
+  }
+  .boderbottom {
+    border-bottom: 1px solid blueviolet;
+    padding-left: 20px;
+  }
+  .boderbottom2 {
+    border-bottom: 1px solid blueviolet;
+    border-style: none none dotted;
+  }
+  .digital-cv-thanhphan p {
+    margin-bottom: 0px;
+  }
+  .digital-cv-thanhphan h3 {
+    margin-top: 10px;
+  }
+  .cot3 {
+    grid-area: 1/3/3/3;
+  }
+  #iconso {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: rgb(224, 21, 123);
+    border: 1px solid rgb(39, 1, 20);
+    text-align: center;
+    color: white;
+  }
+}
